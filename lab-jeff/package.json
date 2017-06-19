@@ -1,0 +1,20 @@
+{
+  "name": "lab-jeff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha",
+    "server": "node index.js 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
